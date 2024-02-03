@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2? family= Cairo:wght@800;900 & display=swap');
+
+
+
+:root {
+    --branco-principal: white;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #168bf7;
+    --background-color: #00030c;
+    --fonte-principal: 'Cairo';
+
+
+}
+
+body {
+    background-color: var(--background-color);
+    padding: 0px;
+
+}
+
+.container__titulo {
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 35px;
+    padding: 5px;
+}
+
+/*.principal {
+    background-image: url(assets/background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}*/
+
+.imgPrincipal {
+    height: 50vh;
+    width: 97vh;
+
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    border-radius: 2px;
+    padding: 0.5em 1em;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 22px;
+    font-family: var(--fonte-principal);
+
+}
+
+.container__botao__fazer__login {
+    background-color: transparent;
+    border: 2px solid var(--botao-azul);
+    padding: 0.5em 1em;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 22px;
+    font-family: var(--fonte-principal);
+}
+
+.container__aviso {
+    color: var(--cinza-secundario);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
