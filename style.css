@@ -24,8 +24,8 @@ body {
     text-align: center;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 35px;
-    padding: 5px;
+    font-size: 30px;
+    padding: 1px;
 }
 
 /*.principal {
@@ -35,9 +35,10 @@ body {
 
 }*/
 
-.imgPrincipal {
+.container__imgPrimaria {
     height: 50vh;
     width: 97vh;
+    margin: 1em 0 2em 0.3em;
 
 }
 
@@ -50,25 +51,30 @@ body {
 .container__botao {
     background-color: var(--botao-azul);
     color: var(--branco-principal);
-    border-radius: 2px;
-    padding: 0.5em 1em;
+    border-radius: 3px;
+    padding: 0.5em;
     display: block;
     text-align: center;
     font-weight: bolder;
     font-size: 22px;
     font-family: var(--fonte-principal);
+    /*margin-bottom: 1em;*/
+    margin: 1em 1em 0 1em;
 
 }
 
 .container__botao__fazer__login {
     background-color: transparent;
-    border: 2px solid var(--botao-azul);
-    padding: 0.5em 1em;
+    border: 2px solid;
+    border-radius: 3px;
+    color: var(--branco-principal);
+    padding: 0.5em;
     display: block;
     text-align: center;
     font-weight: bolder;
     font-size: 22px;
     font-family: var(--fonte-principal);
+    margin: 1em 1em 0.3em 1em;
 }
 
 .container__aviso {
@@ -76,5 +82,5 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 12px;
-    padding: 10px;
+
 }
