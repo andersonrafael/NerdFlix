@@ -1,6 +1,6 @@
+/*section primaria*/
+
 @import url('https://fonts.googleapis.com/css2? family= Cairo:wght@800;900 & display=swap');
-
-
 
 :root {
     --branco-principal: white;
@@ -14,7 +14,6 @@
 
 body {
     background-color: var(--background-color);
-    padding: 0px;
 
 }
 
@@ -23,29 +22,30 @@ body {
     font-family: var(--fonte-principal);
     text-align: center;
     text-transform: uppercase;
-    font-weight: 400;
-    font-size: 30px;
-    padding: 1px;
+    font-weight: 350;
+    font-size: 35px;
+    padding: 5px 10px;
 }
 
-/*.principal {
-    background-image: url(assets/background.jpg);
+.principal {
+
     background-size: contain;
     background-repeat: no-repeat;
+    align-items: center;
+}
 
-}*/
 
 .container__imgPrimaria {
-    height: 50vh;
-    width: 97vh;
-    margin: 0 0 0 0.1em;
+    height: 70vh;
+    width: 120vh;
+    margin-left: 12%;
 
 }
 
 .container {
     height: 100vh;
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 100%;
 }
 
 .container__botao {
@@ -58,9 +58,9 @@ body {
     font-weight: bolder;
     font-size: 22px;
     font-family: var(--fonte-principal);
-    /*margin-bottom: 1em;*/
-    margin: 1em 1em 0 1em;
-
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 1em;
 }
 
 .container__botao__fazer__login {
@@ -74,7 +74,9 @@ body {
     font-weight: bolder;
     font-size: 22px;
     font-family: var(--fonte-principal);
-    margin: 1em 1em 0.3em 1em;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 0.3em;
 }
 
 .container__aviso {
@@ -82,5 +84,32 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 12px;
+}
+
+/*section secundaria*/
+
+.container__imgTelas__secundaria {
+    width: 600px;
+    margin-top: 8%;
+    margin-left: 27.5%;
+    margin-bottom: 1%;
+}
+
+.container__titulo__secundaria {
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 30px;
+    margin-left: 27.5%;
+    margin-bottom: 2px;
+}
+
+.container__descricao__secundaria {
+    color: var(--branco-principal);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 200px;
 
 }
