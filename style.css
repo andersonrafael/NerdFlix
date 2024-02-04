@@ -17,6 +17,14 @@ body {
     width: 100%;
 }
 
+.container__principal {
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: grid;
+}
+
 .container__titulo {
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
@@ -26,14 +34,6 @@ body {
     font-size: 35px;
     padding: 5px 10px;
 }
-
-.principal {
-
-    background-size: contain;
-    background-repeat: no-repeat;
-    align-items: center;
-}
-
 
 .container__imgPrimaria {
     height: 70vh;
