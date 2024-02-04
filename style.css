@@ -8,8 +8,6 @@
     --botao-azul: #168bf7;
     --background-color: #00030c;
     --fonte-principal: 'Cairo';
-
-
 }
 
 body {
@@ -35,12 +33,12 @@ body {
     padding: 5px 10px;
 }
 
-.container__imgPrimaria {
+/*.container__imgPrimaria {
     height: 70vh;
     width: 120vh;
     margin-left: 12%;
 
-}
+}*/
 
 .container {
     height: 100vh;
