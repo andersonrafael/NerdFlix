@@ -73,6 +73,8 @@ body {
 
 .container__botao__fazer__login {
     background-color: transparent;
+    border: 2px solid var(--branco-principal)
+        /*background-color: transparent;
     border: 2px solid;
     border-radius: 3px;
     color: var(--branco-principal);
@@ -84,7 +86,7 @@ body {
     font-family: var(--fonte-principal);
     width: 50%;
     margin-left: 25%;
-    margin-bottom: 0.3em;
+    margin-bottom: 0.3em;*/
 }
 
 .container__aviso {
