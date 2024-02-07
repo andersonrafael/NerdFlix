@@ -16,6 +16,7 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+    width: 100%;
 }
 
 .principal {
@@ -120,18 +121,40 @@ body {
 
 /*.container__destaques*/
 
-.imgGoku {
+/*.imgGoku {
     width: 25%;
     margin-left: 10%;
+}*/
+
+.imgJujutsu {
+    width: 43%;
+
 }
 
-.titulo_dbz {
+.imgNaruto {
+    width: 33%;
+}
+
+.jujutsuKaizen {
+    margin-left: 8%;
+}
+
+.destaques_titulo {
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
-    align-items: center;
-    font-size: 35px;
-    margin-left: 30.5%;
-    margin-bottom: 2px;
+
+
 }
 
-.descricao__dbz {}
+.container__destaques {
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+.container__destaques_animes {
+    display: flex;
+    align-items: center;
+}
