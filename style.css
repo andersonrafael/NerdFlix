@@ -116,34 +116,29 @@ body {
     font-size: 25px;
     margin-left: 30.5%;
     margin-right: 32.2%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 /*.container__destaques*/
 
-/*.imgGoku {
-    width: 25%;
-    margin-left: 10%;
-}*/
+.imgGoku {
+    margin-right: 5%;
+}
 
 .imgJujutsu {
-    width: 43%;
-
+    width: 63%;
+    margin-left: 8%;
 }
 
 .imgNaruto {
     width: 33%;
 }
 
-.jujutsuKaizen {
-    margin-left: 8%;
-}
-
 .destaques_titulo {
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
-
-
+    font-size: 90px;
+    margin-bottom: 5%;
 }
 
 .container__destaques {
@@ -156,5 +151,25 @@ body {
 
 .container__destaques_animes {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+/*rodape*/
+
+.logo_rodape {
+    width: 15%;
+    margin-left: 40%;
+}
+
+.rodape__lista {
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+
+
+
 }
