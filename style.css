@@ -154,13 +154,14 @@ body {
 }
 
 .rodape__lista {
-    color: var(--branco-principal);
+
     font-family: var(--fonte-principal);
-    background-color: white;
+    background-color: rgb(61, 61, 61);
     display: flex;
     justify-content: space-around;
     padding: 30px;
+}
 
-
-
+.li__lista {
+    color: #c0c0c0;
 }
