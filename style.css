@@ -137,7 +137,7 @@ body {
 .destaques_titulo {
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
-    font-size: 90px;
+    font-size: 50px;
     margin-bottom: 5%;
 }
 
