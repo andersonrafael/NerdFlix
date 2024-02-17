@@ -94,6 +94,9 @@ body {
 /*section secundaria*/
 
 .container__imgTelas__secundaria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 600px;
     margin-top: 8%;
     margin-left: 28%;
@@ -105,7 +108,8 @@ body {
     font-family: var(--fonte-principal);
     align-items: center;
     font-size: 35px;
-    margin-left: 23.5%;
+    text-align: center;
+    /*margin-left: 23.5%;*/
     margin-bottom: 2px;
 }
 
